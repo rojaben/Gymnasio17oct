@@ -8,7 +8,6 @@ header {
     background: #333;
     color: #fff;
     padding: 1rem 0;
-    text-align: center;
     width: 100%;
     position: fixed;
     
@@ -16,6 +15,9 @@ header {
 
 header h1 {
     margin: 0;
+    text-align:right;
+    display:inline-block;
+
 }
 
 nav ul {
@@ -35,20 +37,25 @@ nav ul li a {
 }
 
 header img{
-    width: 100px;
-    height: 100px;
-   
+    width: 60px;
+    height: 60px;
+    margin: 5px;
 
 }
 
 section {
-    margin-top: auto;
     padding: 2rem;
     text-align: center;
 }
 
 section ul li{
     list-style:none;
+
+}
+
+
+.bienvenida{
+    margin: 80px;
 
 }
 
