@@ -8,9 +8,10 @@ header {
     background: #333;
     color: #fff;
     padding: 1rem 0;
-    width: 100%;
-    position: fixed;
-    
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 header h1 {
@@ -19,23 +20,6 @@ header h1 {
     display:inline-block;
 
 }
-
-nav ul {
-    list-style: none;
-    padding: 0;
-   
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 1rem;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
 header img{
     width: 60px;
     height: 60px;
@@ -43,25 +27,54 @@ header img{
 
 }
 
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 section {
     padding: 2rem;
     text-align: center;
+    background: #fff;
+    margin: 2rem 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-section ul li{
-    list-style:none;
-
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
+section p, section ul {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
 
-.bienvenida{
-    margin: 80px;
-
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
 }
 
 .gallery {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .gallery img {
@@ -69,6 +82,7 @@ section ul li{
     width: 200px;
     height: 150px;
     object-fit: cover;
+    border-radius: 8px;
 }
 
 form {
@@ -85,24 +99,27 @@ form input, form textarea {
     width: 100%;
     padding: 0.5rem;
     margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 button {
-    background: #26cd9b;
-    color: #020202;
-    padding: 1em;
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
     border: none;
     cursor: pointer;
-    margin-bottom: 3rem;
-
+    border-radius: 4px;
 }
 
 footer {
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 0.5em;
+    padding: 0.2rem;
+   /* position: fixed;*/
     width: 100%;
     bottom: 0;
-    
 }
+
+
