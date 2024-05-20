@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimnasio Fitness</title>
+    
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="/Gym17Oct/styles.css">
+ 
+     <!-- Fuentes -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+ 
+     <!-- Fontawesome -->
+     <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+ 
+     <!-- Favicon -->
+     <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Gimnasio Fitness</h1>
+        <img src="/Gym17Oct/img/logo.jpg" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="#bienvenida">Bienvenida</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="bienvenida">
+        <h2>Bienvenida</h2>
+        <p>Nos complace darte la bienvenida a nuestro gimnasio,
+             un espacio diseñado para ayudarte a alcanzar tus objetivos de salud y bienestar.
+             En el Gymnasio 17 de Octubre, creemos que el ejercicio es la clave para una vida equilibrada y saludable,
+              y estamos aquí para apoyarte en cada paso de tu camino.</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Entrenamiento Personalizado</li>
+            <li>Clases Grupales</li>
+            <li>Yoga y Pilates</li>
+            <li>Nutrición y Dietas</li>
+            <li>Área de Pesas y Cardio</li>
+        </ul>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería</h2>
+        <div class="gallery">
+            <img src="/Gym17Oct/img/basquet.jpeg" alt="Basquet">
+            <img src="/Gym17Oct/img/futbol.jpeg" alt="futbol">
+            <img src="/Gym17Oct/img/gimnasia artistica.jpg" alt="gimnasia artistica">
+            <img src="/Gym17Oct/img/natacion.jpg" alt="Natacion">
+            <img src="/Gym17Oct/img/taekwondo.jpeg" alt="Taekwondo">
+            <img src="/Gym17Oct/img/yoga.jpg" alt="Yoga">
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gimnasio Fitness. Todos los derechos reservados.</p>
+    </footer>
+
+    
+  <!-- Mi script -->
+  <script src="./script.js"></script>
+</body>
+
+</html>
