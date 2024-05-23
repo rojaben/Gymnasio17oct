@@ -161,6 +161,7 @@ form input, form textarea {
     margin-bottom: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
+    width: calc(100% - 40px);
 }
 
 button {
