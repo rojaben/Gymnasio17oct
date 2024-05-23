@@ -163,6 +163,12 @@ form input, form textarea {
     width: calc(100% - 40px);
 }
 
+fieldset{
+    margin:10px 10px 20px 10px;
+    border:none;
+}
+
+
 button {
     background: #333;
     color: #fff;
