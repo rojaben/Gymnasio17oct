@@ -104,7 +104,7 @@ section ul {
 .activities {
     display: flex;
     justify-content:left;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     flex-direction: row;
 }
 
