@@ -267,6 +267,14 @@ footer {
     .activities{
         flex-wrap: wrap;
     }
+
+    .intento{
+        display:flex;
+        width:100%;
+        justify-content: center;
+        flex-direction:column;
+    }
+
     .informations{
         display:flex;
         flex-direction: column;
