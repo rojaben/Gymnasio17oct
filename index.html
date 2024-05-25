@@ -113,17 +113,13 @@
                         <h2>Formulario</h2>
                         <form id="contactForm">
                             <fieldset>
-                                <label for="name">Nombre:</label>
-                                <input type="text" id="name" name="name" required>
+                                <input type="text" id="name" name="name" placeholder="Nombre" required>
                 
-                                <label for="lastname">Apellido:</label>
-                                <input type="text" id="lastname" name="lastname" required>
-                
-                                <label for="email">Email:</label>
-                                <input type="email" id="email" name="email" required>
+                                <input type="text" id="lastname" name="lastname" placeholder="Apellido" required>
             
-                                <label for="tel">Telefono:</label>
-                                <input type="tel" id="tel" name="tel" required>
+                                <input type="email" id="email" name="email" placeholder="E-mail">
+            
+                                <input type="tel" id="tel" name="tel" placeholder="Tel:" required>
             
                                 <label>País</label>
                                 <select name="country" id="country" required="required">
@@ -138,8 +134,37 @@
                                     <option value="Colombia">Colombia</option>
                                     <option value="Venezuela">Venezuela</option>
                                 </select>
+
+                                <label>Provincia</label>
+                                <select name="state" id="country" required="required">
+                                    <option value="" selected="selected">Selecciona una provincia</option>
+                                    <option value="Buenos Aires">Buenos Aires</option>
+                                    <option value="Cordoba">Córdoba</option>
+                                    <option value="Punta del este">Punta del este</option>
+                                    <option value="Santiago">Santiago</option>
+                                    <option value="La paz">La paz</option>
+                                    <option value="Asuncion">Asunciónn</option>
+                                    <option value="Quito">Quito</option>
+                                    <option value="Caracas">Caracas</option>
+                                </select>
+
+                                <label for="Sucursales">Sucursal 1</label>
+                                <input type="radio">
+
+                                <label for="Sucursales">Sucursal 2</label>
+                                <input type="radio">
+
+                                <label for="Sucursales">Sucursal 3</label>
+                                <input type="radio">
+
                                 <label for="message">Mensaje:</label>
-                                <textarea id="message" name="message" required></textarea>
+                                <textarea id="message" name="message" placeholder="Escribe tu mensaje..." required></textarea>
+
+                                <label for="Acepto">Acepto los terminos y condiciones</label>
+                                <input type="checkbox">
+
+                            
+
                                 <button type="submit">Enviar</button> 
                             </fieldset>
                         </form>
