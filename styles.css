@@ -149,19 +149,20 @@ div.direction{
     text-align: center;
     flex-direction: column;
     align-content:flex-start;
+    font-size: 1rem;
     
 }
  
 
 iframe{
    justify-content: center;
-    width: 50%;
+    width: 80%;
 }
 
 form {
     max-width: 600px;
     margin: 0 auto;
-
+    
 }
 
 form label {
@@ -197,7 +198,9 @@ button {
 }
 
 button:hover {
-    background-color: rgb(0, 0, 0);
+    background: #4ca793;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1754c5, #4fd7e7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #364de2, #53e4e7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     transition: 0.2s;
 
 }
