@@ -15,6 +15,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     const email = document.getElementById('email').value;
     const phone = document.getElementById('phone').value;
     const message = document.getElementById('message').value;
+    const micheckbox = document.getElementById('agree');
 
 
     
@@ -49,7 +50,13 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         alert('Por favor, ingresa un mensaje.');
         return;
     }
-  
+
+    
+    if (!micheckbox.checked){
+        alert('Debe aceptar los terminos y condiciones para continuar.')
+        return;
+    }
+    
 
 
 
